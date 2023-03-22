@@ -1,0 +1,176 @@
+The munging of 7 summary statistics started at 2023-03-22 11:53:56
+Reading in reference file
+Reading summary statistics for data/COVID19_HGI_A2_ldsc.tsv.gz data/COVID19_HGI_B2_ldsc.tsv.gz data/COVID19_HGI_C2_ldsc.tsv.gz data/longcovid2022N1v4_ldsc.tsv.gz data/longcovid2022N2v4_ldsc.tsv.gz data/longcovid2022W1v4_ldsc.tsv.gz data/longcovid2022W2v4_ldsc.tsv.gz. Please note that this step usually takes a few minutes due to the size of summary statistic files.
+All files loaded into R!
+
+
+
+Munging file: data/COVID19_HGI_A2_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/COVID19_HGI_A2_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the SE column as the SE column.
+Merging file:data/COVID19_HGI_A2_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+11004642 rows present in the full data/COVID19_HGI_A2_ldsc.tsv.gz summary statistics file.
+9803961 rows were removed from the data/COVID19_HGI_A2_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+47 row(s) were removed from the data/COVID19_HGI_A2_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+18804 rows were removed from the data/COVID19_HGI_A2_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1181830SNPs are left in the summary statistics file data/COVID19_HGI_A2_ldsc.tsv.gz after QC.
+I am done munging file: data/COVID19_HGI_A2_ldsc.tsv.gz
+The file is saved as COVID19_HGI_A2_N.sumstats.gz in the current working directory.
+
+
+
+Munging file: data/COVID19_HGI_B2_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/COVID19_HGI_B2_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the SE column as the SE column.
+Merging file:data/COVID19_HGI_B2_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+11692136 rows present in the full data/COVID19_HGI_B2_ldsc.tsv.gz summary statistics file.
+10487796 rows were removed from the data/COVID19_HGI_B2_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+126 row(s) were removed from the data/COVID19_HGI_B2_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+29 row(s) were removed from the data/COVID19_HGI_B2_ldsc.tsv.gz summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+19882 rows were removed from the data/COVID19_HGI_B2_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1184303SNPs are left in the summary statistics file data/COVID19_HGI_B2_ldsc.tsv.gz after QC.
+I am done munging file: data/COVID19_HGI_B2_ldsc.tsv.gz
+The file is saved as COVID19_HGI_B2_N.sumstats.gz in the current working directory.
+
+
+
+Munging file: data/COVID19_HGI_C2_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/COVID19_HGI_C2_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the SE column as the SE column.
+Merging file:data/COVID19_HGI_C2_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+14399839 rows present in the full data/COVID19_HGI_C2_ldsc.tsv.gz summary statistics file.
+13191296 rows were removed from the data/COVID19_HGI_C2_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+444 row(s) were removed from the data/COVID19_HGI_C2_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+192 row(s) were removed from the data/COVID19_HGI_C2_ldsc.tsv.gz summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+21627 rows were removed from the data/COVID19_HGI_C2_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1186280SNPs are left in the summary statistics file data/COVID19_HGI_C2_ldsc.tsv.gz after QC.
+I am done munging file: data/COVID19_HGI_C2_ldsc.tsv.gz
+The file is saved as COVID19_HGI_C2_N.sumstats.gz in the current working directory.
+
+
+
+Munging file: data/longcovid2022N1v4_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/longcovid2022N1v4_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the Z column as the Z column.
+Interpreting the SE column as the SE column.
+Merging file:data/longcovid2022N1v4_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+8507777 rows present in the full data/longcovid2022N1v4_ldsc.tsv.gz summary statistics file.
+7319679 rows were removed from the data/longcovid2022N1v4_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+178 rows were removed from the data/longcovid2022N1v4_ldsc.tsv.gz summary statistics file due to missing values in the P-value column
+604 row(s) were removed from the data/longcovid2022N1v4_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+326 row(s) were removed from the data/longcovid2022N1v4_ldsc.tsv.gz summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+0 rows were removed from the data/longcovid2022N1v4_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1186990SNPs are left in the summary statistics file data/longcovid2022N1v4_ldsc.tsv.gz after QC.
+I am done munging file: data/longcovid2022N1v4_ldsc.tsv.gz
+The file is saved as longcovid2022N1v4_N.sumstats.gz in the current working directory.
+
+
+
+Munging file: data/longcovid2022N2v4_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/longcovid2022N2v4_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the Z column as the Z column.
+Interpreting the SE column as the SE column.
+Merging file:data/longcovid2022N2v4_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+8434390 rows present in the full data/longcovid2022N2v4_ldsc.tsv.gz summary statistics file.
+7249067 rows were removed from the data/longcovid2022N2v4_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+186 rows were removed from the data/longcovid2022N2v4_ldsc.tsv.gz summary statistics file due to missing values in the P-value column
+591 row(s) were removed from the data/longcovid2022N2v4_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+312 row(s) were removed from the data/longcovid2022N2v4_ldsc.tsv.gz summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+0 rows were removed from the data/longcovid2022N2v4_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1184234SNPs are left in the summary statistics file data/longcovid2022N2v4_ldsc.tsv.gz after QC.
+I am done munging file: data/longcovid2022N2v4_ldsc.tsv.gz
+The file is saved as longcovid2022N2v4_N.sumstats.gz in the current working directory.
+
+
+
+Munging file: data/longcovid2022W1v4_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/longcovid2022W1v4_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the Z column as the Z column.
+Interpreting the SE column as the SE column.
+Merging file:data/longcovid2022W1v4_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+8607403 rows present in the full data/longcovid2022W1v4_ldsc.tsv.gz summary statistics file.
+7418297 rows were removed from the data/longcovid2022W1v4_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+153 rows were removed from the data/longcovid2022W1v4_ldsc.tsv.gz summary statistics file due to missing values in the P-value column
+501 row(s) were removed from the data/longcovid2022W1v4_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+219 row(s) were removed from the data/longcovid2022W1v4_ldsc.tsv.gz summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+0 rows were removed from the data/longcovid2022W1v4_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1188233SNPs are left in the summary statistics file data/longcovid2022W1v4_ldsc.tsv.gz after QC.
+I am done munging file: data/longcovid2022W1v4_ldsc.tsv.gz
+The file is saved as longcovid2022W1v4_N.sumstats.gz in the current working directory.
+
+
+
+Munging file: data/longcovid2022W2v4_ldsc.tsv.gz
+Found REF and ALT columns in the summary statistic file data/longcovid2022W2v4_ldsc.tsv.gz. Please note that REF will be interpreted as A1 (effect allele) and ALT as A2 (other allele)
+Interpreting the rsid column as the SNP column, as requested
+Interpreting the ALT column as the A1 column, as requested
+Interpreting the REF column as the A2 column, as requested
+Interpreting the beta column as the effect column, as requested
+Interpreting the P column as the P column.
+Interpreting the total_n column as the N column, as requested
+Interpreting the maf column as the MAF column, as requested
+Interpreting the Z column as the Z column.
+Interpreting the SE column as the SE column.
+Merging file:data/longcovid2022W2v4_ldsc.tsv.gz with the reference file:resources/GenomicSEM/w_hm3.snplist
+8550410 rows present in the full data/longcovid2022W2v4_ldsc.tsv.gz summary statistics file.
+7364777 rows were removed from the data/longcovid2022W2v4_ldsc.tsv.gz summary statistics file as the rs-ids for these rows were not present in the reference file.
+168 rows were removed from the data/longcovid2022W2v4_ldsc.tsv.gz summary statistics file due to missing values in the P-value column
+476 row(s) were removed from the data/longcovid2022W2v4_ldsc.tsv.gz summary statistics file due to the effect allele (A1) column not matching A1 or A2 in the reference file.
+167 row(s) were removed from the data/longcovid2022W2v4_ldsc.tsv.gz summary statistics file due to the other allele (A2) column not matching A1 or A2 in the reference file.
+No INFO column, cannot filter on INFO, which may influence results
+0 rows were removed from the data/longcovid2022W2v4_ldsc.tsv.gz summary statistics file due to missing MAF information or MAFs below the designated threshold of0.01
+1184822SNPs are left in the summary statistics file data/longcovid2022W2v4_ldsc.tsv.gz after QC.
+I am done munging file: data/longcovid2022W2v4_ldsc.tsv.gz
+The file is saved as longcovid2022W2v4_N.sumstats.gz in the current working directory.
+     
+Munging was completed at 2023-03-22 12:03:39
+The munging of all files took 9 minutes and 42.7613909244537 seconds
+Please check the .log file(s) to ensure that all columns were interpreted correctly and no warnings were issued for any of the summary statistics files

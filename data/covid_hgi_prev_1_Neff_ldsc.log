@@ -1,0 +1,296 @@
+Multivariate ld-score regression of 7 traits (data/COVID19_HGI_A2_Neff.sumstats.gz data/COVID19_HGI_B2_Neff.sumstats.gz data/COVID19_HGI_C2_Neff.sumstats.gz data/longcovid2022N1v4_Neff.sumstats.gz data/longcovid2022N2v4_Neff.sumstats.gz data/longcovid2022W1v4_Neff.sumstats.gz data/longcovid2022W2v4_Neff.sumstats.gz) began at: 2023-03-22 12:38:20
+Reading in LD scores
+Read in summary statistics [1/7] from: data/COVID19_HGI_A2_Neff.sumstats.gz
+Out of 1181830 SNPs, 1174916 remain after merging with LD-score files
+Removing 5 SNPs with Chi^2 > 570.790218231387; 1174911 remain
+Read in summary statistics [2/7] from: data/COVID19_HGI_B2_Neff.sumstats.gz
+Out of 1184303 SNPs, 1177154 remain after merging with LD-score files
+Removing 65 SNPs with Chi^2 > 117.200964003245; 1177089 remain
+Read in summary statistics [3/7] from: data/COVID19_HGI_C2_Neff.sumstats.gz
+Out of 1186280 SNPs, 1178526 remain after merging with LD-score files
+Removing 65 SNPs with Chi^2 > 80; 1178461 remain
+Read in summary statistics [4/7] from: data/longcovid2022N1v4_Neff.sumstats.gz
+Out of 1186990 SNPs, 1178350 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1178350 remain
+Read in summary statistics [5/7] from: data/longcovid2022N2v4_Neff.sumstats.gz
+Out of 1184234 SNPs, 1176632 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1176632 remain
+Read in summary statistics [6/7] from: data/longcovid2022W1v4_Neff.sumstats.gz
+Out of 1188233 SNPs, 1178915 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1178915 remain
+Read in summary statistics [7/7] from: data/longcovid2022W2v4_Neff.sumstats.gz
+Out of 1184822 SNPs, 1177034 remain after merging with LD-score files
+Removing 0 SNPs with Chi^2 > 80; 1177034 remain
+          
+Estimating heritability [1/28] for: data/COVID19_HGI_A2_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/COVID19_HGI_A2_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/COVID19_HGI_A2_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1381
+Lambda GC: 1.0787
+Intercept: 1.0037 (0.0145)
+Ratio: 0.0265 (0.1051)
+Total Observed Scale h2: 0.012 (0.0028)
+h2 Z: 4.21
+     
+Calculating genetic covariance [2/28] for traits: data/COVID19_HGI_A2_Neff.sumstats.gz and data/COVID19_HGI_B2_Neff.sumstats.gz
+1174190 SNPs remain after merging data/COVID19_HGI_A2_Neff.sumstats.gz and data/COVID19_HGI_B2_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_A2_Neff.sumstats.gz and data/COVID19_HGI_B2_Neff.sumstats.gz
+Mean Z*Z: 0.7571
+Cross trait Intercept: 0.6456 (0.0092)
+Total Observed Scale Genetic Covariance (g_cov): 0.0218 (0.0032)
+g_cov Z: 6.83
+g_cov P-value: 8.7751e-12
+     
+Calculating genetic covariance [3/28] for traits: data/COVID19_HGI_A2_Neff.sumstats.gz and data/COVID19_HGI_C2_Neff.sumstats.gz
+1173799 SNPs remain after merging data/COVID19_HGI_A2_Neff.sumstats.gz and data/COVID19_HGI_C2_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_A2_Neff.sumstats.gz and data/COVID19_HGI_C2_Neff.sumstats.gz
+Mean Z*Z: 0.3781
+Cross trait Intercept: 0.3031 (0.0072)
+Total Observed Scale Genetic Covariance (g_cov): 0.0214 (0.0035)
+g_cov Z: 6.03
+g_cov P-value: 1.6043e-09
+     
+Calculating genetic covariance [4/28] for traits: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz
+1173649 SNPs remain after merging data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz
+Mean Z*Z: 0.0021
+Cross trait Intercept: -2e-04 (0.0041)
+Total Observed Scale Genetic Covariance (g_cov): 0.0016 (0.0043)
+g_cov Z: 0.377
+g_cov P-value: 0.70628
+     
+Calculating genetic covariance [5/28] for traits: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+1172616 SNPs remain after merging data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+Mean Z*Z: 0.0201
+Cross trait Intercept: 0.0044 (0.0042)
+Total Observed Scale Genetic Covariance (g_cov): 0.0106 (0.0043)
+g_cov Z: 2.46
+g_cov P-value: 0.014082
+     
+Calculating genetic covariance [6/28] for traits: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+1173405 SNPs remain after merging data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+Mean Z*Z: 0.005
+Cross trait Intercept: -4e-04 (0.0042)
+Total Observed Scale Genetic Covariance (g_cov): 0.0027 (0.0034)
+g_cov Z: 0.806
+g_cov P-value: 0.41996
+     
+Calculating genetic covariance [7/28] for traits: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+1172695 SNPs remain after merging data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_A2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Z*Z: 0.0215
+Cross trait Intercept: 0.0077 (0.0043)
+Total Observed Scale Genetic Covariance (g_cov): 0.0062 (0.0029)
+g_cov Z: 2.14
+g_cov P-value: 0.032759
+          
+Estimating heritability [8/28] for: data/COVID19_HGI_B2_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/COVID19_HGI_B2_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/COVID19_HGI_B2_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1486
+Lambda GC: 1.099
+Intercept: 1.0155 (0.0101)
+Ratio: 0.1043 (0.0676)
+Total Observed Scale h2: 0.0578 (0.0071)
+h2 Z: 8.17
+     
+Calculating genetic covariance [9/28] for traits: data/COVID19_HGI_B2_Neff.sumstats.gz and data/COVID19_HGI_C2_Neff.sumstats.gz
+1176366 SNPs remain after merging data/COVID19_HGI_B2_Neff.sumstats.gz and data/COVID19_HGI_C2_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_B2_Neff.sumstats.gz and data/COVID19_HGI_C2_Neff.sumstats.gz
+Mean Z*Z: 0.5353
+Cross trait Intercept: 0.4487 (0.0072)
+Total Observed Scale Genetic Covariance (g_cov): 0.0539 (0.0069)
+g_cov Z: 7.82
+g_cov P-value: 5.4211e-15
+     
+Calculating genetic covariance [10/28] for traits: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz
+1175600 SNPs remain after merging data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz
+Mean Z*Z: 0.0115
+Cross trait Intercept: 0.0053 (0.0039)
+Total Observed Scale Genetic Covariance (g_cov): 0.0101 (0.0095)
+g_cov Z: 1.07
+g_cov P-value: 0.28515
+     
+Calculating genetic covariance [11/28] for traits: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+1174477 SNPs remain after merging data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+Mean Z*Z: 0.0535
+Cross trait Intercept: 0.0336 (0.0041)
+Total Observed Scale Genetic Covariance (g_cov): 0.0298 (0.0097)
+g_cov Z: 3.07
+g_cov P-value: 0.0021533
+     
+Calculating genetic covariance [12/28] for traits: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+1175471 SNPs remain after merging data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+Mean Z*Z: 0.0107
+Cross trait Intercept: 0.0031 (0.0043)
+Total Observed Scale Genetic Covariance (g_cov): 0.0084 (0.0073)
+g_cov Z: 1.15
+g_cov P-value: 0.24987
+     
+Calculating genetic covariance [13/28] for traits: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+1174560 SNPs remain after merging data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_B2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Z*Z: 0.0429
+Cross trait Intercept: 0.0269 (0.0042)
+Total Observed Scale Genetic Covariance (g_cov): 0.0158 (0.0065)
+g_cov Z: 2.42
+g_cov P-value: 0.015325
+          
+Estimating heritability [14/28] for: data/COVID19_HGI_C2_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/COVID19_HGI_C2_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/COVID19_HGI_C2_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 1.1337
+Lambda GC: 1.1174
+Intercept: 1.0419 (0.0078)
+Ratio: 0.3133 (0.0584)
+Total Observed Scale h2: 0.0822 (0.0114)
+h2 Z: 7.22
+     
+Calculating genetic covariance [15/28] for traits: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz
+1176498 SNPs remain after merging data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022N1v4_Neff.sumstats.gz
+Mean Z*Z: 0.0029
+Cross trait Intercept: -0.0122 (0.0043)
+Total Observed Scale Genetic Covariance (g_cov): 0.0349 (0.015)
+g_cov Z: 2.33
+g_cov P-value: 0.019863
+     
+Calculating genetic covariance [16/28] for traits: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+1175134 SNPs remain after merging data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+Mean Z*Z: 0.0684
+Cross trait Intercept: 0.0424 (0.0044)
+Total Observed Scale Genetic Covariance (g_cov): 0.0555 (0.0148)
+g_cov Z: 3.76
+g_cov P-value: 0.00016776
+     
+Calculating genetic covariance [17/28] for traits: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+1176715 SNPs remain after merging data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+Mean Z*Z: 0.0019
+Cross trait Intercept: -0.0042 (0.0041)
+Total Observed Scale Genetic Covariance (g_cov): 0.01 (0.0102)
+g_cov Z: 0.984
+g_cov P-value: 0.32507
+     
+Calculating genetic covariance [18/28] for traits: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+1175470 SNPs remain after merging data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/COVID19_HGI_C2_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Z*Z: 0.0667
+Cross trait Intercept: 0.049 (0.004)
+Total Observed Scale Genetic Covariance (g_cov): 0.0258 (0.0094)
+g_cov Z: 2.73
+g_cov P-value: 0.0063308
+          
+Estimating heritability [19/28] for: data/longcovid2022N1v4_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/longcovid2022N1v4_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/longcovid2022N1v4_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 0.8771
+Lambda GC: 0.8756
+Intercept: 0.8547 (0.0052)
+Ratio: 1.1825 (-0.0423)
+Total Observed Scale h2: 0.1299 (0.0379)
+h2 Z: 3.43
+     
+Calculating genetic covariance [20/28] for traits: data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+1176035 SNPs remain after merging data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022N2v4_Neff.sumstats.gz
+Mean Z*Z: 0.8331
+Cross trait Intercept: 0.8096 (0.0052)
+Total Observed Scale Genetic Covariance (g_cov): 0.1261 (0.0372)
+g_cov Z: 3.39
+g_cov P-value: 0.00069245
+     
+Calculating genetic covariance [21/28] for traits: data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+1177709 SNPs remain after merging data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+Mean Z*Z: 0.6281
+Cross trait Intercept: 0.6015 (0.0047)
+Total Observed Scale Genetic Covariance (g_cov): 0.1094 (0.026)
+g_cov Z: 4.21
+g_cov P-value: 2.526e-05
+     
+Calculating genetic covariance [22/28] for traits: data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+1176040 SNPs remain after merging data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/longcovid2022N1v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Z*Z: 0.5543
+Cross trait Intercept: 0.5283 (0.0047)
+Total Observed Scale Genetic Covariance (g_cov): 0.0943 (0.0238)
+g_cov Z: 3.97
+g_cov P-value: 7.2192e-05
+          
+Estimating heritability [23/28] for: data/longcovid2022N2v4_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/longcovid2022N2v4_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/longcovid2022N2v4_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 0.9908
+Lambda GC: 0.9942
+Intercept: 0.9856 (0.0057)
+Ratio: 1.5642 (-0.6246)
+Total Observed Scale h2: 0.0257 (0.0389)
+h2 Z: 0.66
+     
+Calculating genetic covariance [24/28] for traits: data/longcovid2022N2v4_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+1175639 SNPs remain after merging data/longcovid2022N2v4_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/longcovid2022N2v4_Neff.sumstats.gz and data/longcovid2022W1v4_Neff.sumstats.gz
+Mean Z*Z: 0.6036
+Cross trait Intercept: 0.5754 (0.0049)
+Total Observed Scale Genetic Covariance (g_cov): 0.1071 (0.0254)
+g_cov Z: 4.22
+g_cov P-value: 2.4672e-05
+     
+Calculating genetic covariance [25/28] for traits: data/longcovid2022N2v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+1175952 SNPs remain after merging data/longcovid2022N2v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/longcovid2022N2v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Z*Z: 0.6567
+Cross trait Intercept: 0.6381 (0.0051)
+Total Observed Scale Genetic Covariance (g_cov): 0.0627 (0.0245)
+g_cov Z: 2.56
+g_cov P-value: 0.010536
+          
+Estimating heritability [26/28] for: data/longcovid2022W1v4_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/longcovid2022W1v4_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/longcovid2022W1v4_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 0.928
+Lambda GC: 0.9261
+Intercept: 0.9193 (0.0053)
+Ratio: 1.1209 (-0.073)
+Total Observed Scale h2: 0.0254 (0.0217)
+h2 Z: 1.17
+     
+Calculating genetic covariance [27/28] for traits: data/longcovid2022W1v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+1176538 SNPs remain after merging data/longcovid2022W1v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz summary statistics
+Results for genetic covariance between: data/longcovid2022W1v4_Neff.sumstats.gz and data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Z*Z: 0.8264
+Cross trait Intercept: 0.8111 (0.0051)
+Total Observed Scale Genetic Covariance (g_cov): 0.0397 (0.0186)
+g_cov Z: 2.13
+g_cov P-value: 0.032921
+          
+Estimating heritability [28/28] for: data/longcovid2022W2v4_Neff.sumstats.gz
+     
+Please note that the results initially printed to the screen and log file reflect the NON-liability h2 and cov_g. However, a liability conversion is being used for trait data/longcovid2022W2v4_Neff.sumstats.gz when creating the genetic covariance matrix used as input for Genomic SEM and liability scale results are printed at the end of the log file.
+     
+Heritability Results for trait: data/longcovid2022W2v4_Neff.sumstats.gz
+Mean Chi^2 across remaining SNPs: 0.9893
+Lambda GC: 0.988
+Intercept: 0.9806 (0.0057)
+Ratio: 1.8085 (-0.5276)
+Total Observed Scale h2: 0.0198 (0.0185)
+h2 Z: 1.07
